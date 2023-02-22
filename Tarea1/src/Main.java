@@ -7,10 +7,10 @@ public class Main {
         System.out.print("Escriba su nombre, profecion y país de origen: ");
         String info = entrada.nextLine();
         String[] separado = info.split( " ");
-        System.out.println(separado);
-        for (int i = 0; i < separado.length; i++){
-            System.out.println(separado[i].toUpperCase());
+        System.out.println("Nombre: " + separado[0].toUpperCase());
+        System.out.println("Profesión: " + separado[1].toUpperCase());
+        System.out.println("País: " + separado[2].toUpperCase());
 
-        }
+
     }
 }
